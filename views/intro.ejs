@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Files X</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!-- Custom styles -->
+    <style>
+        .jumbotron {
+            background-image: url('background-image.jpg');
+            background-size: cover;
+            color: #fff;
+            text-shadow: 2px 2px 4px #000000;
+        }
+
+        .overlay {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 100px 0;
+        }
+
+        .btn-upload {
+            padding: 10px 20px;
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="ml-4">
+        <a class="navbar-brand" href="/introduction">
+            <i class="fa fa-file" style="font-size:20px;color:blue"> Files X </i>
+        </a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/introduction">Home</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/register">Signup</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/login">Login</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main content -->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container overlay text-center">
+            <h1 class="display-4">Welcome to our File Upload Website</h1>
+            <p class="lead">Easily upload and share your files securely.</p>
+            <p class="lead">
+                <a class="btn btn-primary btn-lg btn-upload" href="/home" role="button">Upload Files</a>
+            </p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-center text-white py-3">
+        <p>&copy; 2024 Your Company. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"
+        integrity="sha384-WzjM5IqyYMAdqsKew88Bp2PDZv9CAOtbU7IddXy2+mI3aACVjHtfGccuLE2clBc/"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8sh+QDlOqc6vRfjljKtST9DHf80tcEBmk7HqYf"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
