@@ -3,20 +3,21 @@
 A simple web application where you can upload files and see them listed. Listed files can be downloaded. The files are locally stored in the public folder.
 
 ## Installation
-## Prerequisties
+
+### Prerequisties
 - [Node.js](https://nodejs.org/en)
 - npm
 
-## Clone the repository
+### Clone the repository
 
 ```sh
   git clone https://github.com/arhantsg07/File-upload-app
 ```
-## Install the dependencies
+### Install the dependencies
 ```sh
   npm install
 ```
-## Run the server
+### Run the server
 ```sh
   node server.js
 ```
