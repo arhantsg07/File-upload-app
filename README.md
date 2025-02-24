@@ -12,9 +12,11 @@ A simple web application where you can upload files and see them listed. Listed 
 ```sh
   git clone https://github.com/arhantsg07/File-upload-app
 ```
+## Install the dependencies
 ```sh
   npm install
 ```
+## Run the server
 ```sh
   node server.js
 ```
