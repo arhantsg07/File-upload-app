@@ -22,7 +22,7 @@ const upload = require('./multer');
 // }
 
 
-mongoose.connect('mongodb+srv://<username>:<password>@mycluster.cbtbi45.mongodb.net/?retryWrites=true&w=majority&appName=mycluster', {
+mongoose.connect('mongodb+srv://<username>:<password>@webtest.fsbju.mongodb.net/?retryWrites=true&w=majority&appName=webtest', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
